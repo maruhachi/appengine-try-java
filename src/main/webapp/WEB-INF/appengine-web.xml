@@ -4,7 +4,7 @@
     <version>1</version>
 		<runtime>java8</runtime>
     <threadsafe>true</threadsafe>
-		<manual-scaling>
-		  <instances>1</instances>
-		</manual-scaling>
+		<automatic-scaling>
+		  <max-idle-instances>1</max-idle-instances>
+		</automatic-scaling>
 </appengine-web-app>
